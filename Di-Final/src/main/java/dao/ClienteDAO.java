@@ -14,8 +14,8 @@ public class ClienteDAO implements DAO<Cliente> {
 	public ClienteDAO() {
 		clientes = new ArrayList<>();
 		clientes.add(new Cliente.ClienteBuilder(1).setTipoDocumentationn(TipoDocumento.DNI)
-				.setDocumentation("123456789H").setNombre("Carlos").setApellido("Tardez").setTelefono("12345")
-				.setEmail("carlostaasin@gmail.com").setPassword("password").build());
+				.setDocumentation("123456789H").setNombre("Carlos").setApellido("Pérez").setTelefono("12345")
+				.setEmail("carlosperez@gmail.com").setPassword("password").build());
 		clientes.add(new Cliente.ClienteBuilder(2).setTipoDocumentationn(TipoDocumento.DNI)
 				.setDocumentation("987654321Q").setNombre("Juan").setApellido("Pedro").setTelefono("54321")
 				.setEmail("juanpedro@gmail.com").setPassword("juanpedro1243").build());
